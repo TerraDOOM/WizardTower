@@ -52,6 +52,7 @@ impl Plugin for AppPlugin {
                     ..default()
                 }),
         );
+        app.init_state::<Screen>();
 
         // Add other plugins.
         app.add_plugins((asset_tracking::plugin, loading::plugin, crafting::plugin));
