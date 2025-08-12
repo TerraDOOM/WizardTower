@@ -1,6 +1,6 @@
-mod MainTable;
-mod MetalTable;
-mod WoodTable;
+mod main_table;
+mod metal_table;
+mod wood_table;
 
 use bevy::prelude::*;
 
